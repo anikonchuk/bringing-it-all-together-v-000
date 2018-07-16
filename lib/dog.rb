@@ -50,5 +50,9 @@ class Dog
     dog
   end
 
+  def new_from_db(array)
+    binding.pry
+  end
+
 
 end
