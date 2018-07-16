@@ -53,7 +53,7 @@ class Dog
   end
 
   def new_from_db(array)
-    binding.pry
+    Dog.new(id: array[0], name: array[1], breed: array[2])
   end
 
 
